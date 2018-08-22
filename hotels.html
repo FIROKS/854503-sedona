@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<title>Гостиницы</title>
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<title>Гостиницы</title>
+	</head>
 <body>
 
 	<header>
-		<a href="index.html"><img src="" width="" height="" alt="Логотип сайта"></a>
+		<a><img src="img/logo.svg" width="140px" height="72px" alt="Логотип сайта"></a>
 		<nav class="main-nav">
 			<ul>
 				<li><a href="#">Информация</a></li>
@@ -40,65 +40,76 @@
 		</section>
 
 	<section class="sort">
-		<h2 class="visually-hidden">Список гостиниц</h2>
+		<h2 class="visually-hidden">Сортировка</h2>
 		<span class="found">Найдено:3</span>
-		<h3>Сортировка</h3>
 		<ul>
-			<li>По цене</li>
-			<li>По типу</li>
-			<li>По рейтингу</li>
+			<li><a href="#">По цене</a></li>      <!-- Кому задать класс "found-item" <li> или <a>? -->
+			<li><a href="#">По типу</a></li>
+			<li><a href="#">По рейтингу</a></li>
 		</ul>
-		<div class="arrow-up"></div>
-		<div class="arrow-down"></div>		
+		<ul>
+			<li><div class="arrow-up"></div></li>
+			<li><div class="arrow-down"></div></li>
+		</ul>	
 	</section>
 	
 	<section class="hotels">
-		<section>
-			<img src="" height="" width="" alt="Amara Resort & Spa">
-			<p>Amara Resort & Spa</p>
-			<span>Гостиница</span>
-			<span>От 4000 р.</span>
-			<a href="">Подробнее</a>
-			<a href="">Забронировать</a>
-			<div></div> <!-- под звезды-->
-			<div></div> <!-- под рейтинг-->
+		<h2 class="visually-hidden">Список отелей</h2>
+		<section class="hotels-item">
+			<h3 class="hotels-title">Amara Resort & Spa</h3>
+			<div class="hotels-img">
+				<img src="img/amara.jpg" width="135" height="90" alt="Amara Resort & Spa">
+			</div>			
+			<span class="hotels-text">Гостиница</span>
+			<span class="hotels-text">От 4000 р.</span>
+			<a class="hotels-info" href="#">Подробнее</a>
+			<a class="hotels-lock" href="#">Забронировать</a>
+			<div class="stars"></div> <!-- звезды фоном-->
+			<span class="rating">Рейтинг: 8,5</span>
 		</section>
 		
 		<section>
-			<img src="" height="" width="" alt="Desert Quail Inn">
-			<p>Desert Quail Inn</p>
-			<span>Мотель</span>
-			<span>От 3000 р.</span>
-			<a href="">Подробнее</a>
-			<a href="">Забронировать</a>
-			<div></div> <!-- под звезды-->
-			<div></div> <!-- под рейтинг-->
+			<h3 class="hotels-title">Desert Quail Inn</h3>
+			<div class="hotels-img">
+				<img src="img/desert.jpg" width="135" height="90" alt="Desert Quail Inn">
+			</div>
+			<span class="hotels-text">Мотель</span>
+			<span class="hotels-text">От 3000 р.</span>
+			<a class="hotels-info" href="#">Подробнее</a>
+			<a class="hotels-lock" href="#">Забронировать</a>
+			<div class="stars"></div> <!-- звезды фоном-->
+			<span class="rating">Рейтинг: 8,9</span>
 		</section>
 
 		<section>
-			<img src="" height="" width="" alt="Villas at Poco Diablo">
-			<p>Villas at Poco Diablo</p>
-			<span>Апартаменты</span>
-			<span>От 2000 р.</span>
-			<a href="">Подробнее</a>
-			<a href="">Забронировать</a>
-			<div></div> <!-- под звезды-->
-			<div></div> <!-- под рейтинг-->
+			<h3 class="hotels-title">Villas at Poco Diablo</p>
+			<div class="hotels-img">
+				<img src="img/desert.jpg" width="135" height="90" alt="Villas at Poco Diablo">
+			</div>
+			<span class="hotels-text">Апартаменты</span>
+			<span class="hotels-text">От 2000 р.</span>
+			<a class="hotels-info" href="#">Подробнее</a>
+			<a class="hotels-lock" href="#">Забронировать</a>
+			<div class="stars"></div> <!-- звезды фоном-->
+			<span class="rating">Рейтинг: 9,2</span>
 		</section>
 
 	</section>
 
 	</main>
 
-	<footer> 
-		<span>#Visitsedona</span>
-		<ul>
-			<li><a class="social-button" href="https://vk.com" >vk</a></li>
-			<li><a class="social-button" href="https://facebook.com" >fb</a></li>
-			<li><a class="social-button" href="https://youtube.com">yb</a></li>
-		</ul>
-		<a href="https://htmlacademy.ru/intensive/htmlcss"><img src="" width="" height="" alt="HTML Academy"></a>
-	</footer>
+	<footer>
+			<span>#Visitsedona</span>
+			<ul>
+				<li><a class="social-button" href="https://vk.com" >VK</a></li>
+				<li><a class="social-button" href="https://facebook.com" >Facebook</a></li>
+				<li><a class="social-button" href="https://youtube.com">YouTube</a></li>
+			</ul>
+			<div class="Academy-ref">
+				<span class="by">Website by</span>
+				<a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/academy-logo.svg" width="" height="" alt="HTML Academy"></a> <!-- убрал эффекты перед экспортированием, и теперь лого белое и его не видно. это нормально?-->
+			</div>
+		</footer>
 	
 </body>
 </html>

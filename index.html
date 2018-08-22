@@ -5,8 +5,9 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
+
 		<header>
-			<a><img src="" width="" height="" alt="Логотип сайта"></a>
+			<a><img src="img/logo.svg" width="140px" height="72px" alt="Логотип сайта"></a>
 			<nav class="main-nav">
 				<ul>
 					<li><a href="#">Информация</a></li>
@@ -18,8 +19,8 @@
 		</header>
 		
 		<main>
-		<div class="intro">
-			<div class="welcome"></div>
+		<div class="welcome">
+			<div class="sedona"></div>
 			<!-- <span class="welcome">WELCOME</span>
 			<span class="sub-welcome">- to the gorgeous -</span>
 			<h1 class="sedona">SEDONA</h1>
@@ -28,67 +29,65 @@
 
 		<div class="polygon"></div>
 
-		<div class="sub-intro">
-			<p class="text">Седона - небольшой городок в Аризоне, заслуживающий большего!</p>
-			<p class="small-text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+		<div class="intro">
+			<h1 class="intro-text">Седона - небольшой городок в Аризоне, заслуживающий большего!</h1>
+			<p class="intro-sub-text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
 		</div>
 
-		<section class="advantages">
+		<section class="reason-container">
 			<h2 class="visually-hidden">Достоинства</h2>
-			<div class="reason reason-blue">
-				<p class="text">Настоящий городок</p>
-				<span class="small-text">- №1 -</span>
-				<p class="small-text">Седона - не аттракцион для туристов, там течет своя жизнь</p>
-			</div>
-			<div class="image">
-				
-			</div>
-			<div class="reason reason-white">
-				<span class="text">Жильё</span>
-				<p class="small-text"> Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-			</div>
+			<article class="reason-item reason-blue">
+				<h3 class="reason-title">Настоящий городок</h3>
+				<span class="reason-text">- №1 -</span>
+				<p class="reason-text">Седона - не аттракцион для туристов, там течет своя жизнь</p>			
+			<div class="reason-image"> <img src="img/main-img-1.jpg" alt="Фото города Седона"></div>
+			</article>
 
-			<div class="reason reason-white">
-				<span class="text">Еда</span>
-				<p class="small-text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-			</div>
+			<article class="reason-item reason-white">
+				<h3 class="reason-title">Жильё</h3>
+				<p class="reason-text"> Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+			</article>
 
-			<div class="reason reason-white">
-				<span class="text">Сувениры</span>
-				<p class="small-text">Не только китайского, но и местного производства!</p>
-			</div>
-			<div class="image">
-				
-			</div>
-			<div class="reason reason-blue">
-				<p class="text">Там есть мост дьявола</p>
-				<span class="small-text">- №2 -</span>
-				<p class="small-text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-			</div>
+			<article class="reason-item reason-white">
+				<h3 class="reason-title">Еда</h3>
+				<p class="reason-text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+			</article>
 
-			<div class="reason reason-white">
-				<span class="text">Небольшая площадь</span>
-				<span class="small-text">- №3 -</span>
-				<p class="small-text">Все достопримечательности находятся очень близко</p>
+			<article class="reason-item reason-white">
+				<h3 class="reason-title">Сувениры</h3>
+				<p class="reason-text">Не только китайского, но и местного производства!</p>
 			</div>
+			
+			<article class="reason-item reason-blue">
+				<h3 class="reason-title">Там есть мост дьявола</h3>
+				<span class="reason-text">- №2 -</span>
+				<p class="reason-text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+				<div class="reason-image"><img src="img/main-img-2.jpg" alt="Фото Моста Дьявола"></div>
+			</article>
 
-			<div class="reason reason-white">
-				<span class="text">Красивая дорога</span>
-				<span class="small-text">- №4 -</span>
-				<p class="small-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-			</div>
+			<article class="reason-item reason-white">
+				<h3 class="reason-title">Небольшая площадь</h3>
+				<span class="reason-text">- №3 -</span>
+				<p class="reason-text">Все достопримечательности находятся очень близко</p>
+			</article>
 
-			<div class="reason reason-white">
-				<span class="text">Мало туристов</span>
-				<span class="small-text">- №5 -</span>
-				<p class="small-text">Большинство едет в Гранд Каньон и толпится там</p>
-			</div>
+			<article class="reason-item reason-white">
+				<h3 class="reason-title">Красивая дорога</h3>
+				<span class="reason-text">- №4 -</span>
+				<p class="reason-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+			</article>
+
+			<article class="reason-item reason-white">
+				<h3 class="reason-title">Мало туристов</h3>
+				<span class="reason-text">- №5 -</span>
+				<p class="reason-text">Большинство едет в Гранд Каньон и толпится там</p>
+			</article>
 		</section>
 
 		<section class="search">
 			<h2 class="visually-hidden">Поиск гостиницы</h2>
-			<span class="big-text">Заинтересовались?</span>
-			<p class="small-text">Укажите предлагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+			<span class="search-text">Заинтересовались?</span>
+			<p class="search-subtext">Укажите предлагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
 			<span class="button button-search ">Поиск гостиницы в седоне</span>
 		</section>
 
@@ -101,16 +100,19 @@
 		<footer>
 			<span>#Visitsedona</span>
 			<ul>
-				<li><a class="social-button" href="https://vk.com" >vk</a></li>
-				<li><a class="social-button" href="https://facebook.com" >fb</a></li>
-				<li><a class="social-button" href="https://youtube.com">yb</a></li>
+				<li><a class="social-button" href="https://vk.com" >VK</a></li>
+				<li><a class="social-button" href="https://facebook.com" >Facebook</a></li>
+				<li><a class="social-button" href="https://youtube.com">YouTube</a></li>
 			</ul>
-			<a href="https://htmlacademy.ru/intensive/htmlcss"><img src="" width="" height="" alt="HTML Academy"></a>
+			<div class="Academy-ref">
+				<span class="by">Website by</span>
+				<a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/academy-logo.svg" width="" height="" alt="HTML Academy"></a> <!-- убрал эффекты перед экспортированием, и теперь лого белое и его не видно. это нормально?-->
+			</div>
 		</footer>
 
 		<section class="modal">
 			<!-- форма поиска -->
-			<a class="button" href="#">Найти</a>
+			<!-- <button type="submit"></button> -->
 		</section>
   </body>
 </html>
