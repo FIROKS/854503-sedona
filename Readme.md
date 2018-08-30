@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Maxim Ap](https://up.htmlacademy.ru/htmlcss/22/user/854503).
-* Наставник: [Екатерина Анплитова](https://htmlacademy.ru/profile/anplitova).
+* Наставник: [Илья Туров](https://htmlacademy.ru/profile/turov).
 
 ---
 
