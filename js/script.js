@@ -3,7 +3,7 @@ var range = {
   max: 5000,
   step: 100
 }
-var form = document.querySelector('.form')
+var form = document.querySelector('.filter')
 var rangeBar = document.querySelector('.range-bar')
 var leverMin = document.querySelector('.range-lever-min')
 var leverMax = document.querySelector('.range-lever-max')
