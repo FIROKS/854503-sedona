@@ -6,16 +6,12 @@
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="css/normalize.min.css" rel="stylesheet">
   <link href="css/styles.min.css" rel="stylesheet">
-
 </head>
-
 <body class="page">
 <div class="wrapper">
   <header class="header">
-
     <nav class="main-nav">
-      <a class="logo-link" href="index.html"><img class="logo-img" src="img/logo.svg" width="138" height="70"
-                                                  alt="Логотип сайта"></a>
+      <a class="logo-link" href="index.html"><img class="logo-img" src="img/logo.svg" width="138" height="70" alt="Логотип сайта"></a>
       <ul class="nav-list">
         <li class="nav-item"><a class="nav-link" href="#">Информация</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Фото и видео</a></li>
@@ -23,12 +19,10 @@
         <li class="nav-item nav-item-current"><a class="nav-link nav-link-current">Гостиницы</a></li>
       </ul>
     </nav>
-
   </header>
-
   <main class="main">
     <h1 class="visually-hidden">Гостиницы</h1>
-    <form class="filter" action="https://echo.htmlacademy.ru">
+    <form class="filter" action="https://echo.htmlacademy.ru" method="post">
       <fieldset class="filter-group column-1">
         <legend class="filter-title">Инфраструктура:</legend>
         <div class="filter-row">
@@ -44,7 +38,6 @@
           <label class="filter-text" for="wifi">Wi-Fi</label>
         </div>
       </fieldset>
-
       <fieldset class="filter-group column-2">
         <legend class="filter-title">Тип жилья:</legend>
         <div class="filter-row">
@@ -60,8 +53,6 @@
           <label class="filter-text" for="apartments">Апартаменты</label>
         </div>
       </fieldset>
-
-
       <div class="filter-group column-3">
         <fieldset class="filter-price">
           <div class="filter-range">
@@ -94,8 +85,6 @@
         </fieldset>
       </div>
     </form>
-
-
     <div class="sort">
       <span class="found">Найдено: <output class="found">3</output></span>
       <div class="sort-column">
@@ -121,9 +110,7 @@
         </button>
       </div>
     </div>
-
     <ul class="hotels">
-
       <li class="hotels-item">
         <img class="hotels-img" src="img/amara.jpg" width="135" height="90" alt="Amara Resort & Spa">
         <div class="hotels-desc">
@@ -132,19 +119,21 @@
             <span class="hotels-text">Гостиница</span>
             <span class="hotels-text">От 4000 р.</span>
           </div>
-
           <div class="hotels-action-container">
             <a class="hotels-info" href="#">Подробнее</a>
             <a class="hotels-lock" href="#">Забронировать</a>
           </div>
         </div>
-
         <div class="hotels-rating-container">
-          <span class="stars stars-1"></span> <!-- звезды фоном-->
+          <ul class="stars-container">
+          	<li class="star"></li>
+          	<li class="star"></li>
+          	<li class="star"></li>
+          	<li class="star"></li>
+          </ul>
           <span class="rating">Рейтинг: 8,5</span>
         </div>
       </li>
-
       <li class="hotels-item">
         <img class="hotels-img" src="img/desert.jpg" width="135" height="90" alt="Desert Quail Inn">
         <div class="hotels-desc">
@@ -153,19 +142,20 @@
             <span class="hotels-text">Мотель</span>
             <span class="hotels-text">От 3000 р.</span>
           </div>
-
           <div class="hotels-action-container">
             <a class="hotels-info" href="#">Подробнее</a>
             <a class="hotels-lock" href="#">Забронировать</a>
           </div>
         </div>
-
         <div class="hotels-rating-container">
-          <span class="stars stars-2"></span> <!-- звезды фоном-->
+          <ul class="stars-container">
+          	<li class="star"></li>
+          	<li class="star"></li>
+          	<li class="star"></li>
+          </ul>
           <span class="rating">Рейтинг: 8,9</span>
         </div>
       </li>
-
       <li class="hotels-item">
         <img class="hotels-img" src="img/villa.jpg" width="135" height="90" alt="Villas at Poco Diablo">
         <div class="hotels-desc">
@@ -174,22 +164,21 @@
             <span class="hotels-text">Апартаменты</span>
             <span class="hotels-text">От 2000 р.</span>
           </div>
-
           <div class="hotels-action-container">
             <a class="hotels-info" href="#">Подробнее</a>
             <a class="hotels-lock" href="#">Забронировать</a>
           </div>
         </div>
-
         <div class="hotels-rating-container">
-          <span class="stars stars-3"></span> <!-- звезды фоном-->
+          <ul class="stars-container">
+          	<li class="star"></li>
+          	<li class="star"></li>
+          </ul>
           <span class="rating">Рейтинг: 9,2</span>
         </div>
       </li>
     </ul>
-
   </main>
-
   <footer class="footer">
     <a class="visit" href="#">#Visitsedona</a>
     <ul class="social-list">
@@ -198,9 +187,7 @@
           <span class="visually-hidden">Twitter</span>
           <svg version="1.1" id="Layer_1-9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 							 width="17px" height="15px" viewBox="0 0 17 15" enable-background="new 0 0 17 15" xml:space="preserve">
-							<!-- <image overflow="visible" width="17" height="15" xlink:href="t.png" >
-							</image> -->   <!-- Нужно это вообще или нет?--> 
-							<g id="W6EeEF_1_">
+						<g id="W6EeEF_1_">
 							<g>
 								<path fill="#FFFFFF" d="M10.95,0.144c1.685-0.496,2.984,0.27,3.577,1.179c0.673-0.231,1.331-0.481,2.011-0.708
 								c-0.004,0.861-0.522,1.513-0.857,1.768c0.685,0.17,1.304-0.491,1.304-0.491c-0.169,1-1.006,1.788-1.563,2.024
@@ -208,38 +195,34 @@
 								c2.271,0.196,3.893-0.422,4.693-1.177c-0.96-0.3-2.679-0.477-2.979-2.95C2.064,9.09,2.279,9.212,2.905,9.103
 								C1.705,8.247,0.374,7.53,0.448,5.33c0.285,0.328,1.067,0.536,1.34,0.472c-0.703-0.241-1.97-3.36-0.894-4.952
 								c1.818,1.854,3.735,3.606,7.152,3.773C8.254,2.33,9.183,0.793,10.95,0.144z"/>
-								</g>
 							</g>
-							</svg>
+						</g>
+					</svg>
         </a>
       </li>
       <li class="social-item">
         <a class="social-button facebook" href="https://facebook.com"><span class="visually-hidden">Facebook</span>
-          <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-							 width="12px" height="22px" viewBox="0 0 12 22" enable-background="new 0 0 12 22" xml:space="preserve">
-								<path fill="#FFFFFF" d="M12,4V0H8C5.791,0,4,1.791,4,4v4H0v4h4v10h4V12h4V8H8V4H12z"/>
-							</svg>
+        	<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					width="12px" height="22px" viewBox="0 0 12 22" enable-background="new 0 0 12 22" xml:space="preserve">
+						<path fill="#FFFFFF" d="M12,4V0H8C5.791,0,4,1.791,4,4v4H0v4h4v10h4V12h4V8H8V4H12z"/>
+					</svg>
         </a>
       </li>
       <li class="social-item">
         <a class="social-button youtube" href="https://youtube.com">
           <span class="visually-hidden">YouTube</span>
           <svg version="1.1" id="Layer_1-7" xmlns="http://www.w3.org/2000/svg"	 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-								 width="20px" height="16px" viewBox="0 0 20 16" enable-background="new 0 0 20 16" xml:space="preserve">
-								<!-- <image overflow="visible" enable-background="new    " width="20" 	height="16" xlink:href="youtube.png" >
-								</image> -->
-								<path fill="#FFFFFF" d="M17,0H3C1.35,0,0,1.35,0,3v10c0,1.65,1.35,3,3,3h14c1.65,0,3-1.35,3-3V3C20,1.35,18.65,0,17,0z
-							 M6.027,11.998V4.002L15.014,8L6.027,11.998z"/>
-							</svg>
+					width="20px" height="16px" viewBox="0 0 20 16" enable-background="new 0 0 20 16" xml:space="preserve">
+						<path fill="#FFFFFF" d="M17,0H3C1.35,0,0,1.35,0,3v10c0,1.65,1.35,3,3,3h14c1.65,0,3-1.35,3-3V3C20,1.35,18.65,0,17,0z
+						M6.027,11.998V4.002L15.014,8L6.027,11.998z"/>
+					</svg>
         </a>
       </li>
     </ul>
-
     <div class="academy-container">
       <span class="by">Website by</span>
       <a class="academy-logo" href="https://htmlacademy.ru/intensive/htmlcss">
-        <svg id="Layer_1-99" width="115" height="41" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
-             viewBox="0 0 113 39"><title>logo_name</title>
+        <svg id="Layer_1-99" width="115" height="41" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113 39"><title>logo_name</title>
           <path
             d="M401.93,351.51a2.07,2.07,0,0,0,.58-0.11v1.4a3.41,3.41,0,0,1-1.24.22,1.75,1.75,0,0,1-1.75-1,5.08,5.08,0,0,1-3.3,1.13c-1.59,0-3.06-.87-3.06-2.68,0-2.24,2.08-2.93,3.9-2.93a11.63,11.63,0,0,1,2.28.26v-0.31c0-1.09-.8-1.86-2.3-1.86a7.79,7.79,0,0,0-3.15.67v-1.79a10.72,10.72,0,0,1,3.35-.58c2.48,0,4,1.18,4,3.83v3.14A0.57,0.57,0,0,0,401.93,351.51Zm-6.76-1.19a1.42,1.42,0,0,0,1.64,1.29,3.56,3.56,0,0,0,2.53-1V349.1a10.21,10.21,0,0,0-1.9-.22C396.34,348.89,395.17,349.23,395.17,350.33Z"
             transform="translate(-355.09 -323.29)" fill="#fff"/>
