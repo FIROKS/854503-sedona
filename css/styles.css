@@ -439,6 +439,7 @@ a {
 	top: 0;
 	left: 0;
 	z-index: 0;
+	border: 0;
 }
 
 .search-form {
@@ -1384,28 +1385,6 @@ a {
 	background-image: url(../img/star.svg);
 	background-repeat: no-repeat;
 }
-
-/*.stars {
-  display: block;
-  min-height: 17px;
-  margin-top: -1px;
-  background-image: url(../img/star.svg);
-  -webkit-background-size: 23px 17px;
-  background-size: 23px 17px;
-  background-repeat: space no-repeat;
-}*/
-
-/*.stars-1 {
-  width: 94px;
-}*/
-
-/*.stars-2 {
-  width: 70px;
-}
-
-.stars-3 {
-  width: 46px;
-}*/
 
 .rating {
   display: block;
